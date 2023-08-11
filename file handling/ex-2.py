@@ -1,0 +1,5 @@
+f=open("data.txt","r")
+# tx=f.read(5)
+tx=f.readline()
+print(tx)
+f.close()
